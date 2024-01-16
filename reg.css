@@ -1,0 +1,68 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+    text-decoration: none;
+}
+
+.form-container{
+    min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    padding-bottom: 60px;
+    background:rgb(199, 198, 198);
+}
+.form-container form{
+    
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: -5px 13px 81px -12px rgba(0,0,0,0.68);
+-webkit-box-shadow: -5px 13px 81px -12px rgba(0,0,0,0.68);
+-moz-box-shadow: -5px 13px 81px -12px rgba(0,0,0,0.68);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+.form-container form h1{
+font-size: 30px;
+text-transform: uppercase;
+margin-bottom: 10px;
+color:#333;
+}
+.form-container form input,
+.form-container select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 20px;
+    margin: 8px 0;
+    background: #eee;
+    padding-right: 0px;
+border: 20px;
+}
+.form-container select option{
+background: #fff;
+}
+.form-container form .form-btn{
+    background: #fbd0d9;
+    color:crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-container form .form-btn:hover{
+background:rgb(54, 114, 38);
+color:#fff;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color:#333;
+}
+.form-container form a{
+color:crimson;
+}

@@ -1,0 +1,162 @@
+* {
+  font-family: montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+
+.top-bar {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  
+  
+  
+  position: fixed !important;
+  bottom: 0;
+   padding-left: 2vw;
+    width: 100%;
+  
+}
+
+.btn1 {
+  background: rgb(45, 168, 45);
+  color: #fff;
+  border: black solid 1px;
+  outline: none;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+}
+/* #nn{
+  margin-left: 50vw;
+  margin-top: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+} */
+.btn:hover {
+  opacity: 0.9;
+}
+
+.page-info {
+  margin-left: 1rem;
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 1rem;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+  height: 100vh;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+.section-padding{
+  padding:100px 0;
+}
+ul .dropdown-menu{
+  max-width: 10px;
+}
+
+.collapse{
+margin-right: 20px;
+}
+
+.navbar{
+  position: sticky !important;
+  top:0;
+  z-index: 1;
+}
+.body{
+  overflow: hidden;
+}
+.nav .navbar{
+  color:black;
+}
+.navbar a img{
+  height: 65px;
+  width: 65px;
+}
+.navbar-nav a{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+  color:#000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+  
+  color:#000;
+  
+}
+.nav-item .nav-link:hover {
+  border-bottom: 2px solid rgb(45, 168, 45);
+  
+}
+.navbar-dark .navbar-brand .text{
+color:rgb(45, 168, 45);
+font-size: 35px;
+padding-left: 20px;
+letter-spacing: 1px;
+font-weight:bold;
+-webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: .3px;
+}
+
+@media (max-width: 2000px){
+  canvas {
+    width: 48%;
+    height: 79vh;
+  }
+}
+@media (max-width: 1000px){
+  canvas {
+    width: 70%;
+    height: 75vh;
+  }
+}
+@media (max-width: 700px){
+  canvas {
+    width: 95%;
+    height: 80vh;
+    
+  }
+}
+
+@media (max-width: 500px){
+  canvas {
+    width: 100%;
+    height: 80vh;
+    
+  }
+  .top-bar{
+    display: flex;
+  justify-content: space-between;
+  }
+  .btn1 {
+    
+    padding: 5px;
+  }
+}
+@media (max-width: 400px){
+  canvas {
+    width: 100%;
+    height: 80vh;
+    
+  }
+}

@@ -1,0 +1,138 @@
+*{
+    font-family: montserrat;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+
+}
+body{
+    background:  whitesmoke;
+    height: 80vh;
+}
+    
+a {
+    padding-left: 7px;
+}
+    
+
+.navbar a img{
+    height: 65px;
+    width: 65px;
+}
+ ::-webkit-scrollbar{
+   display: none;
+} 
+.section-padding{
+    padding:100px 0;
+}
+ul .dropdown-menu{
+    max-width: 10px;
+}
+
+.collapse{
+margin-right: 20px;
+}
+
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+    color:#000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+   
+    
+   
+}
+#br{
+    padding-left: 7px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    
+    color:#000;
+    
+}
+.nav-item .nav-link:hover {
+    border-bottom: 2px solid rgb(45, 168, 45);
+    
+}
+
+.navbar-dark .navbar-brand .text{
+color:rgb(45, 168, 45);
+font-size: 35px;
+padding-left: 20px;
+letter-spacing: 1px;
+font-weight:bold;
+-webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: .3px;
+
+
+}
+
+.card-body1{
+    overflow-x: auto !important;
+    display: flex;
+    justify-content: center;
+  
+}
+.container{
+    width: 100%;
+    overflow-x: auto !important;
+}
+#dd{
+    max-height: 90%;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    max-height: 92vh ;
+    box-shadow: 0px 13px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 13px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 19px 0px rgba(0,0,0,0.75);
+}
+.card .table{
+    width: 1050px;
+    margin: 0 auto;
+    
+    
+}
+.card1{
+    width: 80vw;
+}
+#search1{
+    max-width: 150px;
+    margin-top: 10px;
+}
+.btn-primary{
+    margin-top: 7px;
+}
+
+@media (max-width:350px){
+    .text{
+       display: none;
+    }
+    .slide1 h1{
+        font-size: 40px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+       }
+    #search1{
+       width:100px;
+    }
+}
+@media (max-width:992px){
+
+    
+    .container, .container-md, .container-sm {
+        max-width: 900px;
+    }
+}
